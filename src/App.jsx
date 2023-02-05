@@ -1,6 +1,8 @@
 //  import reactLogo from './assets/react.svg'
+
 import './App.css'
 import Expenses from './components/Expenses/Expenses'
+import NewExpense from './components/NewExpense/NewExpense'
 import './components/UI/Card'
 
 const App = () => {
@@ -26,9 +28,15 @@ const App = () => {
 		},
 	]
 
+	const addExpenseHandler = expense => {
+		console.log('In App.js')
+		console.log(expense)
+	}
+
 	return (
 		<div>
-			<h1>Hello motherfucker</h1>
+			<h1>Hello Motherfucker</h1>
+			<NewExpense onAddExpense={addExpenseHandler} />
 			<Expenses items={expenses} />
 		</div>
 	)

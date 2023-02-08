@@ -16,7 +16,8 @@ const ExpenseForm = props => {
 	const titleChangeHandler = event => {
 		setEneteredTitle(event.target.value)
 
-		// Ia a better approach - guarantee best previous state
+		// Najlepsze podejście jesli chcemy updeteować poprzedni stan.
+		// Jest również najbezpieczniejsza jeśli chcemy mieć pewnośc rerenderingu poprzedniego snapshota
 		// setUserInput(prevState => {
 		// 	return { ...prevState, enteredTitle: event.target.value }
 		// })

@@ -22,7 +22,7 @@
 
 .new-expense button:hover,
 .new-expense button:active {
-	background-color: #510674;
+	background-color: #701c97;
 	border-color: #510674;
 }
 
@@ -34,5 +34,5 @@
 
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
-	background-color: #ddb3f8;
+	background-color: #c797e6;
 }

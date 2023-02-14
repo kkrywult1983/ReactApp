@@ -36,7 +36,7 @@ const App = () => {
 			return [expense, ...prevExpenses]
 		})
 	}
-	console.log(expenses)
+
 	return (
 		<div>
 			<h1>Hello Motherfucker</h1>
